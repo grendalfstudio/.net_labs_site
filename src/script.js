@@ -5,6 +5,11 @@ function ChangeTab(link, elementToDisplay){
     
     previousLink = link;
 
+    // let burgerMenu = document.getElementById("burger-menu").children[0];
+    // if(burgerMenu.innerText === "close"){
+    //     showOrHideMenu();
+    // }
+
     // menu links
     let linkClass = "active-link";
 

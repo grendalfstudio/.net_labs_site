@@ -1,5 +1,5 @@
 .home-background{
-	background-image: url(../src/img/elearning-getty.jpg);
+	/*background-image: url(../src/img/elearning-getty.jpg);*/
 	background-position: center;
 	background-repeat: round;
 	background-attachment: fixed;	
@@ -15,7 +15,7 @@
 }*/
 
 .home-content{
-	background-color: rgba(51,51,80,0.7);
+	background-color: rgba(152,86,141,0.5);
 	color: var(--whitesmoke);
 	border-radius: 10px;
 	margin: 50px;
@@ -36,6 +36,8 @@
 
 .home-content-info-photo img{
 	border-radius: 25px;
+	margin: 0px, 5%;
+
 }
 
 .home-content-info-bio{
