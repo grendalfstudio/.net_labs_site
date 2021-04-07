@@ -36,6 +36,13 @@ img{
     display: flex;
 }
 
+#bigimage{
+    width: 70%;
+    height: 70%;
+    align-content: center;
+    display: flex;
+}
+
 a{
     outline-style: none;
     text-decoration: none;
