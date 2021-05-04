@@ -2,7 +2,7 @@
 <html>
 <head> 
 <meta charset="UTF-8"> 
-<title>Something strange</title>
+<title>Something very pretty</title>
 <link rel="stylesheet" type="text/css" href="../src/colors.css">
 <link rel="stylesheet" type="text/css" href="../src/root.css"> 
 <script type="text/javascript" src="../src/script.js"></script>
@@ -37,69 +37,102 @@
 		<div class="main">
             <div id="menu">
             	<div class="dropdown">
-                	<a class="menu-item flex">1. Характеристика об’єкта автоматизації</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex active-link" onclick="ChangeTab(this, '1')">1.1. Опис об'єкта управління</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">1.2. Мета розробки проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '3')">1.3. Бізнес-задачі</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '4')">1.4. Бізнес-процеси</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '5')">1.5. Сценарії дій системи</a>
-               		</div>
+                    <a class="menu-item flex " onclick="ChangeTab(this, '1')">1. Тема, мета та постановка задачі лабораторної роботи №6.</a>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">2. Об’єктно-орієнтована декомпозиції  предметного середовища</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '6')">2.1. Таблиця обґрунтування класів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '7')">2.2. Таблиця обґрунтування методів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '8')">2.3. Об'єкто-орієнтована декомпозиція предметного середовища</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '9')">2.4. Функціональні вимоги замовника - UML-діаграми</a>
-               		</div>
+                    <a class="menu-item flex">2. Проектування ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '2')">2.1. Проектування структури ПЗ  - UML-діаграма класів</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '3')">2.2. Таблиця класів</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">3. Проектування ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '10')">3.1. Проектування структури ПЗ  - UML-діаграма класів</a>
-      
-               		</div>
+                    <a class="menu-item flex">3. Кодування (програмування)</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '4')"> 3.1. Класи-делегати</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '5')">3.2. Події</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '6')">3.3. Анонімні методи</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '7')"> 3.4. Лямбда-оператори та лямбда-вирази</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '11')"> 3.5. Результат виконання програми</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">4. Кодування (програмування)</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '11')"> 4.1. Файлова структура проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '12')">4.2. Специфікації методів у вигляді таблиці з переліком сигнатури методів, семантики методів та їх параметрів</a>
-               		</div>
+                    <a class="menu-item flex">4. Впровадження та супроводження ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '8')">4.1. Папка з проектом</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '9')">4.2. Запуск ехе-файла</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">5. Впровадження та супроводження ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '1')">5.1. Папка з проектом</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">5.2. Запуск ехе-файла</a>
-               		</div>
+                    <a class="menu-item flex " onclick="ChangeTab(this, '10')">5. Висновки</a>
                 </div>
             </div>
     
             <div id="content">
                 <div id="1" class="active-item">
-                    <p>Опис предметного середовища</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse omnis officia illum, expedita
-                        velit odit quasi dolore doloribus facilis consequatur quam exercitationem nisi placeat voluptatibus 
-                        molestiae architecto? Ex eius saepe magnam laudantium animi distinctio optio error earum maiores 
-                        quidem quae suscipit quod et deleniti sequi debitis, sint veniam iure hic. Vero, facere nulla 
-                        cupiditate id distinctio impedit. Assumenda dignissimos explicabo amet deserunt asperiores aut 
-                        sapiente dicta adipisci quo mollitia ut quidem recusandae minima accusantium reiciendis illo, sit 
-                        nobis corporis id animi eum ex ducimus! Dolores repellat, ad ut velit sequi maxime odit animi quaerat
-                        impedit praesentium ex repellendus perspiciatis incidunt accusantium dolorem quod odio error illum tenetur ab 
-                        adipisci soluta laboriosam! A sunt quaerat, libero ipsa cumque vel modi minus accusantium sed, fugiat, 
-                        assumenda sint? Quis quaerat eveniet soluta obcaecati vitae! Dolore blanditiis illum explicabo obcaecati
-                        incidunt quia porro. Doloremque nulla sint saepe iste, tenetur odit at eveniet molestiae. 
-                        </p>
-                    <img src="4.jpg"/>
+                    <p style="margin: 0px  0px 0px 30px">Тема: ДЕЛЕГАТИ. ПОДІЇ. АНОНІМНІ МЕТОДИ.  ЛЯМБДА-ОПЕРАТОРИ. ЛЯМБДА-ВИРАЗИ.
+                    </p>
+                    <p style="padding: 0px 0px 0px 30px">
+                    Мета: Придбати практичні навички роботи створення делегатів, подій, анонімних методів, лямбда-операторів та лямбда-виразів.
+                    </p>
+                    <p style="padding: 0px 0px 0px 30px">
+                        Постановка задачі:
+                    <ol style="list-style-type: none"> 
+                        <li>1. Доповнити програмну реалізацію класів делегатами, подіями. </li>
+                        <li>2. Реалізувати анонімні методи та лямбда-вирази.</li>
+                        <li>3. Протестувати програму. Зробити висновки.</li>
+                    </ol>
                 </div>
-                <div id="2" class="item">Загальна постановка задачі програми</div>
-                <div id="3" class="item">Постановка задачі лабораторної роботи №1</div>
-                <div id="4" class="item">Структура документа</div>
-                <div id="5" class="item">Висновок</div>
+                <div id="2" class="item">
+                    <p>UML-діаграма класів проекту</p>
+                    <img id="table" src="../src/img/classes_diagram4.jpg"/>
+                </div>
+                <div id="3" class="item">
+                    <p>Таблиця класів</p>
+                    <img id="table" src="../src/img/classes5.png"/>
+                    <p>Продовження</p>
+                    <img id="table" src="../src/img/classes6.png"/>
+                </div>
+                <div id="4" class="item">
+                    <p>Класи-делегати</p>
+                    <p>Оголошення делегату</p>
+                    <img id="image" src="../src/img/delegate.png">
+                </div>
+                <div id="5" class="item">
+                    <p>Події</p>
+                    <p>Оголошення події</p>
+                    <img id="image" src="../src/img/delegate.png">
+                    <p>Виклик події</p>
+                    <img id="table" src="../src/img/event.png">
+                </div>
+                <div id="6" class="item">
+                    <p>Анонімні методи</p>
+                    <p>Оголошення та використання анонімного методу</p>
+                    <img id="table" src="../src/img/amethod.png">
+                </div>
+                <div id="7" class="item">
+                    <p>Лямбда-оператори та лямбда-вирази</p>
+                    <p>Використання лямбда-виразу</p>
+                    <img id="table" src="../src/img/lambda.png">
+                </div>
+                <div id="8" class="item">
+                    <p>Папка з проектом</p>
+                    <a href="https://github.com/grendalfstudio/.net_labs">Завантажити папку з проектом</a>
+                </div>
+                <div id="9" class="item">
+                    <p>Запуск exe-файлу</p>
+                    <a href="https://drive.google.com/file/d/1XHKXRpKuv9XrhU_M4Bgu0mDei9Kd5f_n/view?usp=sharing">Завантажити програму</a>
+                </div>
+                <div id="10" class="item">
+                    <p>Висновки</p>
+                    <p>У даній лабораторній роботі були придбані практичні навички роботи з делегатами та подіями, створення лямбда-операторів та лямбда-виразів.</p>
+                </div>
+                <div id="11" class="item">
+                    <p>Результат виконання програми</p>
+                    <img id="image" src="../src/img/result1.png">
+                    <p>Вивід програми</p>
+                    <img id="table" src="../src/img/result2.png">
+                </div>
             </div>
         </div>
 		<div class="footer"></div>
