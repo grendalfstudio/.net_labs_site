@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Something very pretty</title>
+<link rel="stylesheet" type="text/css" href="../src/colors.css">
+<link rel="stylesheet" type="text/css" href="../src/root.css"> 
+<script type="text/javascript" src="../src/script.js"></script>
+</head>
+<body> 
+	<div class="wrapper">
+		<div class="header">
+            <div class="header-background">
+                <h2>
+                    Звіти з лабораторних робіт
+                </h2>
+                <h2>
+                    з дисципліни Технології .Net розробки веб-додатків
+                </h2>
+                <h2>
+                    студентів групи ІТ-81 Краснової Поліни, Васкевича Миколи, Пустовєтова Павла, Юхимчук Анастасії
+                </h2>
+            </div>
+        </div>
+		<div class="topbar flex horizontal-alignment">
+			<a class="topbar-item shadow" href="../index.html">Title</a>
+			<a class="topbar-item shadow" href="1.html">Lab 1</a>
+			<a class="topbar-item shadow" href="2.html">Lab 2</a>
+			<a class="topbar-item shadow" href="3.html">Lab 3</a>
+			<a class="topbar-item shadow" href="4.html">Lab 4</a>
+			<a class="topbar-item shadow" href="5.html">Lab 5</a>
+			<a class="topbar-item shadow active" href="6.html">Lab 6</a>
+			<a class="topbar-item shadow" href="7.html">Lab 7</a>
+			<a class="topbar-item shadow" href="8.html">Lab 8</a>
+			<a class="topbar-item shadow" href="9.html">Lab 9</a>
+		</div>
+		<div class="main">
+            <div id="menu">
+            	<div class="dropdown">
+                    <a class="menu-item flex " onclick="ChangeTab(this, '1')">1. Тема, мета та постановка задачі лабораторної роботи №6.</a>
+                </div>
+                <div class="dropdown">
+                    <a class="menu-item flex">2. Проектування ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '2')">2.1. Проектування структури ПЗ  - UML-діаграма класів</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '3')">2.2. Таблиця класів</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="menu-item flex">3. Кодування (програмування)</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '4')"> 3.1. Класи-делегати</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '5')">3.2. Події</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '6')">3.3. Анонімні методи</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '7')"> 3.4. Лямбда-оператори та лямбда-вирази</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '11')"> 3.5. Результат виконання програми</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="menu-item flex">4. Впровадження та супроводження ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '8')">4.1. Папка з проектом</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '9')">4.2. Запуск ехе-файла</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="menu-item flex " onclick="ChangeTab(this, '10')">5. Висновки</a>
+                </div>
+            </div>
+    
+            <div id="content">
+                <div id="1" class="active-item">
+                    <p style="margin: 0px  0px 0px 30px">Тема: ДЕЛЕГАТИ. ПОДІЇ. АНОНІМНІ МЕТОДИ.  ЛЯМБДА-ОПЕРАТОРИ. ЛЯМБДА-ВИРАЗИ.
+                    </p>
+                    <p style="padding: 0px 0px 0px 30px">
+                    Мета: Придбати практичні навички роботи створення делегатів, подій, анонімних методів, лямбда-операторів та лямбда-виразів.
+                    </p>
+                    <p style="padding: 0px 0px 0px 30px">
+                        Постановка задачі:
+                    <ol style="list-style-type: none"> 
+                        <li>1. Доповнити програмну реалізацію класів делегатами, подіями. </li>
+                        <li>2. Реалізувати анонімні методи та лямбда-вирази.</li>
+                        <li>3. Протестувати програму. Зробити висновки.</li>
+                    </ol>
+                </div>
+                <div id="2" class="item">
+                    <p>UML-діаграма класів проекту</p>
+                    <img id="table" src="../src/img/classes_diagram4.jpg"/>
+                </div>
+                <div id="3" class="item">
+                    <p>Таблиця класів</p>
+                    <img id="table" src="../src/img/classes5.png"/>
+                    <p>Продовження</p>
+                    <img id="table" src="../src/img/classes6.png"/>
+                </div>
+                <div id="4" class="item">
+                    <p>Класи-делегати</p>
+                    <p>Оголошення делегату</p>
+                    <img id="image" src="../src/img/delegate.png">
+                </div>
+                <div id="5" class="item">
+                    <p>Події</p>
+                    <p>Оголошення події</p>
+                    <img id="image" src="../src/img/delegate.png">
+                    <p>Виклик події</p>
+                    <img id="table" src="../src/img/event.png">
+                </div>
+                <div id="6" class="item">
+                    <p>Анонімні методи</p>
+                    <p>Оголошення та використання анонімного методу</p>
+                    <img id="table" src="../src/img/amethod.png">
+                </div>
+                <div id="7" class="item">
+                    <p>Лямбда-оператори та лямбда-вирази</p>
+                    <p>Використання лямбда-виразу</p>
+                    <img id="table" src="../src/img/lambda.png">
+                </div>
+                <div id="8" class="item">
+                    <p>Папка з проектом</p>
+                    <a href="https://github.com/grendalfstudio/.net_labs">Завантажити папку з проектом</a>
+                </div>
+                <div id="9" class="item">
+                    <p>Запуск exe-файлу</p>
+                    <a href="https://drive.google.com/file/d/1XHKXRpKuv9XrhU_M4Bgu0mDei9Kd5f_n/view?usp=sharing">Завантажити програму</a>
+                </div>
+                <div id="10" class="item">
+                    <p>Висновки</p>
+                    <p>У даній лабораторній роботі були придбані практичні навички роботи з делегатами та подіями, створення лямбда-операторів та лямбда-виразів.</p>
+                </div>
+                <div id="11" class="item">
+                    <p>Результат виконання програми</p>
+                    <img id="image" src="../src/img/result1.png">
+                    <p>Вивід програми</p>
+                    <img id="table" src="../src/img/result2.png">
+                </div>
+            </div>
+        </div>
+		<div class="footer"></div>
+	</div>
+</html>
