@@ -1,15 +1,17 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-<head> 
-<meta charset="UTF-8"> 
-<title>Something strange</title>
-<link rel="stylesheet" type="text/css" href="../src/colors.css">
-<link rel="stylesheet" type="text/css" href="../src/root.css"> 
-<script type="text/javascript" src="../src/script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Something strange</title>
+    <link rel="stylesheet" type="text/css" href="../src/colors.css">
+    <link rel="stylesheet" type="text/css" href="../src/root.css">
+    <script type="text/javascript" src="../src/script.js"></script>
 </head>
-<body> 
-	<div class="wrapper">
-		<div class="header">
+
+<body>
+    <div class="wrapper">
+        <div class="header">
             <div class="header-background">
                 <h2>
                     Звіти з лабораторних робіт
@@ -22,86 +24,161 @@
                 </h2>
             </div>
         </div>
-		<div class="topbar flex horizontal-alignment">
-			<a class="topbar-item shadow" href="../index.html">Title</a>
-			<a class="topbar-item shadow" href="1.html">Lab 1</a>
-			<a class="topbar-item shadow" href="2.html">Lab 2</a>
-			<a class="topbar-item shadow" href="3.html">Lab 3</a>
-			<a class="topbar-item shadow" href="4.html">Lab 4</a>
-			<a class="topbar-item shadow" href="5.html">Lab 5</a>
-			<a class="topbar-item shadow" href="6.html">Lab 6</a>
-			<a class="topbar-item shadow" href="7.html">Lab 7</a>
-			<a class="topbar-item shadow active" href="8.html">Lab 8</a>
-			<a class="topbar-item shadow" href="9.html">Lab 9</a>
-		</div>
-		<div class="main">
+        <div class="topbar flex horizontal-alignment">
+            <a class="topbar-item shadow" href="../index.html">Title</a>
+            <a class="topbar-item shadow" href="1.html">Lab 1</a>
+            <a class="topbar-item shadow" href="2.html">Lab 2</a>
+            <a class="topbar-item shadow" href="3.html">Lab 3</a>
+            <a class="topbar-item shadow" href="4.html">Lab 4</a>
+            <a class="topbar-item shadow" href="5.html">Lab 5</a>
+            <a class="topbar-item shadow" href="6.html">Lab 6</a>
+            <a class="topbar-item shadow" href="7.html">Lab 7</a>
+            <a class="topbar-item shadow active" href="8.html">Lab 8</a>
+            <a class="topbar-item shadow" href="9.html">Lab 9</a>
+        </div>
+        <div class="main">
             <div id="menu">
-            	<div class="dropdown">
-                	<a class="menu-item flex">1. Характеристика об’єкта автоматизації</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex active-link" onclick="ChangeTab(this, '1')">1.1. Опис об'єкта управління</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">1.2. Мета розробки проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '3')">1.3. Бізнес-задачі</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '4')">1.4. Бізнес-процеси</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '5')">1.5. Сценарії дій системи</a>
-               		</div>
+                <div class="dropdown">
+                    <a class="menu-item flex " onclick="ChangeTab(this, '1')">1. Тема, мета та постановка задачі лабораторної роботи №7.</a>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">2. Об’єктно-орієнтована декомпозиції  предметного середовища</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '6')">2.1. Таблиця обґрунтування класів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '7')">2.2. Таблиця обґрунтування методів</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '8')">2.3. Об'єкто-орієнтована декомпозиція предметного середовища</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '9')">2.4. Функціональні вимоги замовника - UML-діаграми</a>
-               		</div>
+                    <a class="menu-item flex">2. Проектування ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '2')">2.1. Проектування структури ПЗ  - UML-діаграма класів</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '3')">2.2. Таблиця класів</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">3. Проектування ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '10')">3.1. Проектування структури ПЗ  - UML-діаграма класів</a>
-      
-               		</div>
+                    <a class="menu-item flex">3. Кодування (програмування)</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '4')">3.1. Завдання 4.1</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '5')">3.2. Завдання 4.2</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '6')">3.3. Завдання 4.3</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '7')">3.4. Завдання 4.4</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">4. Кодування (програмування)</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '11')"> 4.1. Файлова структура проекту</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '12')">4.2. Специфікації методів у вигляді таблиці з переліком сигнатури методів, семантики методів та їх параметрів</a>
-               		</div>
+                    <a class="menu-item flex">4. Впровадження та супроводження ПЗ</a>
+                    <div class="submenu">
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '8')">4.1. Папка з проектом</a>
+                        <a class="submenu-item flex" onclick="ChangeTab(this, '9')">4.2. Запуск ехе-файла</a>
+                    </div>
                 </div>
                 <div class="dropdown">
-                	<a class="menu-item flex">5. Впровадження та супроводження ПЗ</a>
-               	 	<div class="submenu">
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '1')">5.1. Папка з проектом</a>
-                		<a class="submenu-item flex" onclick="ChangeTab(this, '2')">5.2. Запуск ехе-файла</a>
-               		</div>
+                    <a class="menu-item flex " onclick="ChangeTab(this, '10')">5. Висновки</a>
                 </div>
             </div>
-    
+
             <div id="content">
                 <div id="1" class="active-item">
-                    <p>Опис предметного середовища</p>
+                    <p style="margin: 0px  0px 0px 40px">Тема: ПОТОКИ
+                    </p>
+                    <p style="padding: 0  0 0 40px">
+                        Мета: придбати практичні навички роботи з потоками.
+                    </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo esse omnis officia illum, expedita
-                        velit odit quasi dolore doloribus facilis consequatur quam exercitationem nisi placeat voluptatibus 
-                        molestiae architecto? Ex eius saepe magnam laudantium animi distinctio optio error earum maiores 
-                        quidem quae suscipit quod et deleniti sequi debitis, sint veniam iure hic. Vero, facere nulla 
-                        cupiditate id distinctio impedit. Assumenda dignissimos explicabo amet deserunt asperiores aut 
-                        sapiente dicta adipisci quo mollitia ut quidem recusandae minima accusantium reiciendis illo, sit 
-                        nobis corporis id animi eum ex ducimus! Dolores repellat, ad ut velit sequi maxime odit animi quaerat
-                        impedit praesentium ex repellendus perspiciatis incidunt accusantium dolorem quod odio error illum tenetur ab 
-                        adipisci soluta laboriosam! A sunt quaerat, libero ipsa cumque vel modi minus accusantium sed, fugiat, 
-                        assumenda sint? Quis quaerat eveniet soluta obcaecati vitae! Dolore blanditiis illum explicabo obcaecati
-                        incidunt quia porro. Doloremque nulla sint saepe iste, tenetur odit at eveniet molestiae. 
-                        </p>
-                    <img src="4.jpg"/>
+                        <ul style="list-style-type: none"> Постановка задачі:
+                            <li>1. В окремому проекті виконати завдання пункту №3</li>
+                            <li>2. Протестувати програму</li>
+                            <li>3. Зробити висновки</li>
+                        </ul>
+                    </p>
                 </div>
-                <div id="2" class="item">Загальна постановка задачі програми</div>
-                <div id="3" class="item">Постановка задачі лабораторної роботи №1</div>
-                <div id="4" class="item">Структура документа</div>
-                <div id="5" class="item">Висновок</div>
+                <div id="2" class="item">
+                    <p>UML-діаграма класів проекту</p>
+                    <img id="table" src="../src/img/classes_diagram4.jpg" />
+                </div>
+                <div id="3" class="item">
+                    <p>Таблиця класів</p>
+                    <img id="table" src="../src/img/classes5.png" />
+                    <p>Продовження</p>
+                    <img id="table" src="../src/img/classes6.png" />
+                </div>
+                <div id="4" class="item">
+                    <p>Код виконання 3 циклів в одному потоці</p>
+                    <img id="table" src="../src/img/lab8/1.png">
+                    <p>Код виконання 3 циклів в одному потоці</p>
+                    <img id="table" src="../src/img/lab8/2.png">
+                    <p>Код виконання 3 циклів в одному потоці</p>
+                    <img id="table" src="../src/img/lab8/4.png">
+                    <p>Результат виконання 3 циклів в одному потоці</p>
+                    <img id="table" src="../src/img/lab8/6.png">
+                    </br>
+                    </br>
+                    <p>Код виконання 3 циклів у трьох потоках</p>
+                    <img id="table" src="../src/img/lab8/3.png">
+                    <p>Код виконання 3 циклів у трьох потоках</p>
+                    <img id="table" src="../src/img/lab8/5.png">
+                    </br>
+                    <p>Результат виконання 3 циклів у трьох потоках</p>
+                    <img id="table" src="../src/img/lab8/7.png">
+                    </br>
+                </div>
+                <div id="5" class="item">
+                    <p>Код читання з файлу в некотрольованих потоках</p>
+                    <img src="../src/img/lab8/8.png">
+                    <p>Код запису з файлу в некотрольованих потоках</p>
+                    <img src="../src/img/lab8/9.png">
+                    <p>Код читання і запису з файлу в некотрольованих потоках</p>
+                    <img src="../src/img/lab8/13.png">
+                    </br>
+                    <p>Результат запису і читання з файлу в неконтрольованих потоках</p>
+                    <img src="../src/img/lab8/17.png">
+                    </br>
+                    </br>
+                    <p>Код запису і читання з файлів із синхронизованими потоками</p>
+                    <img src="../src/img/lab8/10.png">
+                    <p>Код запису і читання з файлів із синхронизованими потоками</p>
+                    <img src="../src/img/lab8/14.png">
+                    </br>
+                    <p>Результат запису і читання з файлів із синхронизованими потоками</p>
+                    <img src="../src/img/lab8/18.png">
+                    </br>
+                </div>
+                <div id="6" class="item">
+                    <p>Код запису і читання з файлу із використанням м'ютексів</p>
+                    <img src="../src/img/lab8/11.png">
+                    <p>Код запису і читання з файлу із використанням м'ютексів</p>
+                    <img src="../src/img/lab8/15.png">
+                    </br>
+                    <p>Результат запису і читання з файлу із використанням м'ютексів</p>
+                    <img src="../src/img/lab8/19.png">
+                    </br>
+                </div>
+                <div id="7" class="item">
+                    <p>Код для одночасного читання і запису двома потоками (семафори)</p>
+                    <img src="../src/img/lab8/12.png">
+                    <p>Код для одночасного читання і запису двома потоками (семафори)</p>
+                    <img src="../src/img/lab8/16.png">
+                    </br>
+                    <p>Результат одночасного читання і запису двома потоками (семафори)</p>
+                    <img src="../src/img/lab8/20.png">
+                    </br>
+                    </br>
+                </div>
+                <div id="8" class="item">
+                    <p>Папка з проектом</p>
+                    <a href="https://github.com/grendalfstudio/.net_labs">Завантажити папку з проектом</a>
+                </div>
+                <div id="9" class="item">
+                    <p>Запуск exe-файлу</p>
+                    <a href="https://drive.google.com/file/d/1XHKXRpKuv9XrhU_M4Bgu0mDei9Kd5f_n/view?usp=sharing">Завантажити програму</a>
+                </div>
+                <div id="10" class="item">
+                    <p>Висновки</p>
+                    <p>Виконуючи дану лабораторну роботу, ми придбали практичні навички роботи з потоками. Нашою командою були написані усі поставлені задачі. Крім цього, під час виконання ми виокристовували м'ютекси та семафори для синхронізації потоків.</p>
+                </div>
+                <div id="11" class="item">
+                    <p>Результат обробки виключення при реєстрації користувача</p>
+                    <img id="table" src="../src/img/result3.png">
+                    <p>Результат обробки виключення</p>
+                    <img id="table" src="../src/img/result4.png">
+                    <p>Результат роботи програми без обробки виключення</p>
+                    <img id="table" src="../src/img/result5.png">
+                </div>
             </div>
         </div>
-		<div class="footer"></div>
-	</div>
+        <div class="footer"></div>
+    </div>
+
 </html>
